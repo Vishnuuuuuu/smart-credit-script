@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+*.manifest
+*.spec
+
+# Virtualenv
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+*.env
+
+# Replit / Editor / IDE
+.replit
+*.swp
+*.swo
+*.bak
+*~
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
+*.out
+*.err
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Playwright cache & downloads
+.playwright/
+**/playwright-report/
+**/test-results/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# Coverage / Testing
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Local data files (not for prod)
+data/
+*.c*
